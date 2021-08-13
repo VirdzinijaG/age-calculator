@@ -5,7 +5,6 @@ body {
 .container {
     width: 40%;
     min-width: 550px;
-    border: 1px solid black;
     position: absolute;
     transform: translate(-50%, -50%);
     left: 50%;
@@ -33,6 +32,7 @@ input {
     display: flex;
     justify-content: space-between;
     color: white;
+    text-align: center;
 }
 .result > div {
     width: 100px;
@@ -41,4 +41,14 @@ input {
     margin-top: 30px;
     border-radius: 10px;
     box-shadow: 8px 15px 20px #080808;
+    padding-top: 25px;
+}
+span {
+    font-size: 30px;
+    font-weight: 500;
+}
+p { 
+    font-size: 14px;
+    color: #707070;
+    font-weight: 400;
 }
